@@ -5,23 +5,23 @@
     <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/application.css">
      <link rel="stylesheet" href="/style.css">
-  </head>
-  <body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/application.js"></script>
+</head>
+<body>
 
 <!-- header starts
 ================================================== -->
 <section id="header" class="clearfix">
   <div class="container">
     <div class="row"> 
-      
-      <!--logo starts-->
-      <div class="span4 logo"><a href="#"><img src="images/logo2.png" width="148" height="41" alt="logo"></a></div>
-      <!--logo ends-->
-    <div class="span8 clearfix"> 
-   
-        
-        <!--menu starts-->
-        <div id="smoothmenu" class="ddsmoothmenu">
+<!--logo starts-->
+  <div class="span4 logo"><a href="#"><img src="images/logo2.png" width="148" height="41" alt="logo"></a></div>
+<!--logo ends-->
+  <div class="span8 clearfix"> 
+    <!--menu starts-->
+    <div id="smoothmenu" class="ddsmoothmenu">
           <ul>
             <li><a href="/new_player">Start Over</a></li>
           </ul>
@@ -39,11 +39,6 @@
 ================================================== -->
 <section id="content" class="clearfix"> 
   
-
-
-<!-- Old Starts -->
-
-
   <div class="container">
     <%if @error %>
       <div class="alert alert-error"><h2><%=@error%></h2></div>
