@@ -261,6 +261,16 @@ blockquote.pull-right {
 	outline: none;
 	text-shadow: none;
 }
+
+/** *************************************
+            Page noty
+************************************ **/
+.noty .btn.alert {
+    margin-bottom: 0;
+    padding: 4px 10px;
+    border-color: #CCCCCC #CCCCCC #B3B3B3;
+}
+
 /*----------------------------------------*/
 /*----- 1.8 Image styles -----*/
 /*----------------------------------------*/
@@ -527,7 +537,7 @@ textarea:focus, input[type="text"]:focus, select:focus {
 /*----- 2.9 Footer  -----*/
 /*----------------------------------------*/
 #footer {
-	background: url(../img/patterns/body-bg.jpg) repeat #000;
+	background: url(../images/body-bg.jpg) repeat #000;
 	padding: 30px 0px;
 	text-shadow: 0px 1px 0px #000;
 }
@@ -555,7 +565,7 @@ textarea:focus, input[type="text"]:focus, select:focus {
 }
 /*list-info*/
 .list-info li {
-	background: url(../img/footer-item-divider.png) repeat-x bottom;
+	background: url(images/footer-item-divider.png) repeat-x bottom;
 	padding-bottom: 10px;
 	margin-bottom: 8px;
 	list-style-type: none;
@@ -688,7 +698,7 @@ textarea:focus, input[type="text"]:focus, select:focus {
 	padding: 0px 5px;
 }
 .ddsmoothmenu ul li ul li {
-	background: url(../img/header-nav-item-divider.png) repeat-x bottom;
+	background: url(images/header-nav-item-divider.png) repeat-x bottom;
 	padding: 10px 10px 12px 10px;
 	box-shadow: none !important;
 	display: list-item;
